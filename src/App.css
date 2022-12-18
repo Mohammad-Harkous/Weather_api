@@ -25,6 +25,8 @@ form{
   height: 5vh;
   background-color: #759eda;
   border: 0;
+  font-size: 30px;
+  color: gainsboro;
 }
 
 input::placeholder{
@@ -47,19 +49,55 @@ button{
   background-color: #5879c7;
   color: black;
   font-weight: lighter;
-  
+  margin-left: 15%;
+  font-size: 20px;
+  color: black;
 }
-
+.wethear_now {
+  display: grid;
+  grid-template-rows: 220px 70px 60px 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 25px;
+  font-family:  Raleway;
+}
 
 /* body section */
-
-img{
-  width: 200px;
+.image {
+  width: 250px;
+  margin-left: 30px;
 }
-
-
-
-
-
-
-
+img{
+  width: 100px;
+  
+}
+.color {
+  color: white;
+}
+.size {
+  font-size: 20px;
+}
+.days {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 30px;
+  font-family:  Raleway;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: stretch;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 40px;
+  font-size: 30px;
+  grid-column-gap: 80px;
+  font-size: 20px;
+  font-family:  Raleway;
+}
