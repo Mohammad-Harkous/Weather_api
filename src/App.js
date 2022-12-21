@@ -4,6 +4,7 @@ import Search from './components/Search';
 import CurrentWeather from './components/CurrentWeather';
 import NextHoursWeather from './components/NextHoursWeather';
 
+
 function App() {
 
   const  [weather, setWeather] = useState('');
@@ -15,7 +16,6 @@ function App() {
     
     setCityName(name) 
   }
-
 
   
   useEffect( () => {
@@ -35,8 +35,8 @@ function App() {
     <div className="App">
       <Search handleSubmit={handleSubmit}/>
     <main>
-     {weather && <CurrentWeather values={weather}/> }
-      <NextHoursWeather />
+     {weather && <CurrentWeather values={weather}/>}
+      <NextHoursWeather daily={weather} />
     </main>
     </div>
   );

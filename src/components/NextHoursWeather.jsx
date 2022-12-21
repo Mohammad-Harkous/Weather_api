@@ -2,22 +2,9 @@ import mostlycloudy from '../images/weather-icons/mostlycloudy.svg';
 import clear from '../images/weather-icons/clear.svg';
 
 
+
 function NextHoursWeather(){
 
-    
-
-    /*
-    useEffect( () => {
-        fetch('http://api.openweathermap.org/data/2.5/forecast?q=london&cnt=8&appid=a69752920750f500833942e2d4a71e4a')
-            .then(res => {
-              return res.json();
-            })
-            .then(data => {
-                setDaily(data);
-            });
-            
-      },[]);
-      */
     return(
         <div className='days'>
             <div className='info'>
