@@ -1,26 +1,15 @@
 import clear from '../images/weather-icons/clear.svg';
 import cloudly from '../images/weather-icons/cloudly.svg';
 import drizzle from '../images/weather-icons/drizzle.svg';
-import fog from '../images/weather-icons/fog.svg';
 import mostlycloudy from '../images/weather-icons/mostlycloudy.svg';
 import partlycloudy from '../images/weather-icons/partlycloudy.svg';
-import rain from '../images/weather-icons/rain.svg';
-import snow from '../images/weather-icons/snow.svg';
-import storm from '../images/weather-icons/storm.svg';
 import unknown from '../images/weather-icons/unknown.svg';
 
-/*light rain*/
-/*broken clouds*/
-/*moderate*/
-/*moderate rain*/
-/*overcast clouds*/
-/*clear sky*/
 
-/*scattered clouds*/
-/*few clouds*/
 
 function CurrentWeather({values}) {
 
+    
     var images = values.weather[0].description;
     switch (images) {
         case 'clear sky':

@@ -3,8 +3,6 @@ import { useState } from "react";
 function Search({handleSubmit}){
   const [changeName, setchangeName] = useState('');
 
-  /*onSubmit={(e) =>(e.preventDefault())}*/
-
     return(
         <nav>
         <form onSubmit={(e) => {
